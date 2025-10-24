@@ -4,40 +4,42 @@
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Poppins",  sans-serif;
 }
+/* ======================================
+   🌊 Aqua Royal Theme - Elegant & Calm
+   ====================================== */
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #37423b; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #134080; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  /* 🎨 الألوان العامة */
+  --background-color: #ffffff;     /* خلفية عامة فاتحة جدًا ونظيفة */
+  --default-color: #1C2E40;        /* نصوص أساسية - رمادي أزرق أنيق */
+  --heading-color: #1B395B;        /* عناوين الموقع - أزرق ملكي غامق */
+  --accent-color: #2E86C1;         /* اللون المميز للأزرار والروابط */
+  --surface-color: #f3f3f3;        /* خلفية الكروت والعناصر المنفصلة */
+  --contrast-color: #FFFFFF;       /* نص داخل الأزرار أو الخلفيات الغامقة */
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+/* 🧭 ألوان القائمة */
 :root {
-  --nav-color: #272828;  /* The default color of the main navmenu links */
-  --nav-hover-color: #134080; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #272828; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #134080; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #1B395B;                 /* النص العادي في القوائم */
+  --nav-hover-color: #2E86C1;           /* عند المرور بالماوس */
+  --nav-mobile-background-color: #F7FAFC; /* خلفية القائمة في الموبايل */
+  --nav-dropdown-background-color: #f3f3f3; /* خلفية القوائم المنسدلة */
+  --nav-dropdown-color: #1C2E40;        /* نصوص القوائم المنسدلة */
+  --nav-dropdown-hover-color: #2E86C1;  /* تأثير hover داخل القائمة المنسدلة */
 }
 
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
-
+/* 🌗 الثيمات */
 .light-background {
-  --background-color: #f9f9f9;
-  --surface-color: #ffffff;
+  --background-color: #f3f3f3;
+  --surface-color: #FFFFFF;
 }
 
 .dark-background {
-  --background-color: #060606;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --surface-color: #252525;
-  --contrast-color: #ffffff;
+  --background-color: #16222A; /* خلفية ليليّة فخمة */
+  --default-color: #EAF2F4;    /* نصوص فاتحة */
+  --heading-color: #FFFFFF;    /* عناوين بيضاء أنيقة */
+  --surface-color: #1E2E38;    /* كروت غامقة */
+  --contrast-color: #FFFFFF;
 }
 
 /* Smooth scroll */
